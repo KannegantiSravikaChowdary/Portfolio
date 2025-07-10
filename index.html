@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sravika Portfolio</title>
+  <link rel="stylesheet" href="index.css" />
+
+  <!-- Font Awesome CDN for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h2 class="logo">Sravika's Portfolio</h2>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm Kanneganti Sravika Chowdary 👋</h1>
+      <p>Full Stack Developer | AI/ML Enthusiast | NxtWave CCBPian</p>
+      <div class="hero-icons">
+        <a href="https://github.com/KannegantiSravikaChowdary" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:kannegantiSravikaChowdary@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://linkedin.com/in/kannegantisravika" target="_blank"><i class="fab fa-linkedin"></i></a>
+  
+      </div>
+      <a href="#about" class="btn">Explore More</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <img src="C:\Users\kanne_sjkhzzz\OneDrive\Documents\profile.jpg" alt="Profile" class="profile-img"/>
+      <p>I am a final-year B.Tech student specializing in AI & ML. I'm a passionate Full Stack Developer and a NxtWave CCBPian learning 4.0 technologies. 
+        I love building responsive web apps and solving real-world problems using modern tools and frameworks.
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section" id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skill-filters">
+      <button class="filter-btn active" onclick="filterSkills('all')">All</button>
+      <button class="filter-btn" onclick="filterSkills('frontend')">Frontend</button>
+      <button class="filter-btn" onclick="filterSkills('backend')">Backend</button>
+      
+    </div>
+
+    <div class="skills-container">
+      <!-- Frontend -->
+      <div class="skill-card frontend"><i class="fab fa-html5"></i><p>HTML</p></div>
+      <div class="skill-card frontend"><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+      <div class="skill-card frontend"><i class="fab fa-js-square"></i><p>JavaScript</p></div>
+      <div class="skill-card frontend"><i class="fab fa-react"></i><p>React</p></div>
+
+      <!-- Backend -->
+      <div class="skill-card backend"><i class="fab fa-node-js"></i><p>Node.js</p></div>
+      <div class="skill-card backend"><i class="fas fa-database"></i><p>SQL</p></div>
+      <div class="skill-card backend"><i class="fas fa-server"></i><p>Express.js</p></div>
+
+      
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Smart Resume Match</h3>
+        <p>NLP + GenAI based JD matching and upskilling suggestor.</p>
+        <div class="project-links">
+          <a href="https://skillsnapmatch-fxks445is63uwdkf4jsz64.streamlit.app" targrt="_balnk">View</a>
+          <a href="https://github.com/KannegantiSravikaChowdary/SkillSnapMatch" target="_blank">GitHub</a>
+        </div>
+      </div>
+      <div class="project-card">
+  <h3>Developer Portfolio</h3>
+  <p>Responsive personal portfolio built using HTML, CSS, and JS to showcase projects and skills.</p>
+  <div class="project-links">
+    <a href="#"></a> 
+    <a href="https://github.com/KannegantiSravikaChowdary/Portfolio" target="_blank">GitHub</a>
+  </div>
+</div>
+
+      <div class="project-card">
+        <h3>Wikipedia</h3>
+        <p>A responsive app using REST API to fetch and display Wikipedia search results in real-time</p>
+        <div class="project-links">
+          <a href="#"></a>
+          <a href="https://github.com/KannegantiSravikaChowdary/Wikipedia" target="_blank">GitHub</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <h3>Fitness Tracker</h3>
+        <p>A simple web app to log, edit, and delete workouts with type and duration tracking.</p>
+        <div class="project-links">
+          <a href="#" target="_blank"></a>
+        <a href="https://github.com/KannegantiSravikaChowdary/FitnessTracker" target="_blank">GitHub</a>
+  </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact-info">
+      <p><i class="fas fa-envelope"></i>kannegantisravika@gmail.com</p>
+      
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Sravika | All rights reserved</p>
+  </footer>
+
+  <!-- Script -->
+  <script src="index.js"></script>
+</body>
+</html>
